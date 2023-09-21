@@ -1,0 +1,199 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* menu de navegación */
+.container {
+    /* Sugerencia para que el esquema se vea proporcional */
+    width: 970px;
+    margin: 0 auto;
+}
+
+.navBar {
+    background-color: rgb(196, 191, 191);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+}
+
+.textWhite {
+    color: rgb(0, 0, 0);
+}
+
+.searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.searchInput>input {
+    width: 350px;
+    height: 24px;
+    border-radius: 0;
+}
+
+.btn {
+    padding: 2px 8px;
+    box-shadow: 2px 2px 0px 0px black;
+    border: 2px solid black;
+}
+
+.btnBlue {
+    background-color: rgb(56, 117, 216);
+    color: white;
+}
+
+
+/* primera columna */
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainContent .main{
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card.user-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-body p {
+    margin: 5px 5px; /* Espacio entre los párrafos */
+}
+
+.btn-yellow {
+    background-color: #ffc107; /* Fondo amarillo */
+    color: black; /* Texto negro */
+    padding: 5px 15px; /* Espaciado interior del botón */
+    border: 2px solid black; /* Borde negro */
+    text-decoration: none; /* Quita la subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición suave */
+    box-shadow: 2px 2px 0px 0px black;
+    border: 2px solid black;
+}
+
+.btn-yellow:hover {
+    background-color: #ffcc00; /* Cambia el fondo a un tono más oscuro de amarillo al pasar el cursor */
+    color: black; /* Texto sigue siendo negro al pasar el cursor */
+}
+
+.card-body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.card-body1 p{
+    margin: 5px 5px; /* Espacio entre los párrafos */
+}
+
+.azul {
+    color: blue;
+}
+
+
+/* segunda columna */
+.col-1 {
+    flex: 1;
+} 
+
+.card2{
+    background-color: #fff;
+    border: 2px solid #000000;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    overflow: hidden;
+    height: 140px; /* Ajusta la altura según tu preferencia */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-header {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.card-header h3{
+    font-weight: normal;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.btnGreen {
+    background-color: #4CAF50; /* Color verde */
+    color: black;
+    padding: 5px 15px; /* Ajusta el relleno según tus preferencias */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 2px 2px 0px 0px black;
+    border: 2px solid black;
+}
+
+.btnGreen:hover {
+    background-color: #45a049; /* Cambia el color al pasar el cursor */
+}
+
+
+/* Establece el ancho deseado para .mainContent.main2 */
+.mainContent.main2 {
+    width: 633px;
+}
+
+.btn-yellow2 {
+    background-color: #ffc107; /* Fondo amarillo */
+    color: black; /* Texto negro */
+    padding: 5px 13px; /* Espaciado interior del botón */
+    border: 2px solid black; /* Borde negro */
+    text-decoration: none; /* Quita la subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un bloque en línea */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s, color 0.3s; /* Efecto de transición suave */
+    box-shadow: 2px 2px 0px 0px black;
+    border: 2px solid black;
+}
+
+.btn-yellow2:hover {
+    background-color: #ffcc00; /* Cambia el fondo a un tono más oscuro de amarillo al pasar el cursor */
+    color: black; /* Texto sigue siendo negro al pasar el cursor */
+}

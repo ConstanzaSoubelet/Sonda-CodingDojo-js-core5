@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navBar">
+            <h1 class="textWhite">Dojonary</h1>
+            <div class="searchBar">
+                <div class="searchInput">
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div>
+                <button id="loginButton" class="btn btnBlue" onclick="toggleLoginStatus()">Login</button>
+            </div>
+        </div>
+
+        <div class="mainContent main">
+            <div class="col-2">
+                <!-- 2/3 width column -->
+                <div class="primaryContent">
+                    <!-- user info card -->
+                    <div class="card user-card">
+                        <div class="card-body">
+                            <h1 class="cardName" id="userName"> Ninja </h1>
+                            <p>noun</p>
+                            <p>Plural: <i>ninjas</i></p>
+                            <p><a href="#" onclick="showLikeAlert()" class="btn-yellow">
+                                    13 likes</a></p>
+                        </div>
+                        <div class="card-body1">
+                            <p>A practitioner skilled in the <a href="#" class="azul">Japanese</a> art of <a href="#"
+                                    class="azul">ninjutsu</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1/3 width column -->
+            <div class="col-1">
+                <!-- Add definition button -->
+                <div class="card2" id="definitionCard">
+                    <div class="card-header">
+                        <h3>Dojonary is defined by <strong>YOU</strong></h3>
+                        <span class="buttons">
+                            <button class="btn btnGreen" onclick="addDefinition()">Add definition</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mainContent main2">
+            <!-- 2/3 width column -->
+            <div class="width">
+                <div class="primaryContent">
+                    <!-- user info card -->
+                    <div class="card user-card">
+                        <div class="card-body">
+                            <h1 class="cardName" id="userName"> Ninja </h1>
+                            <p>noun</p>
+                            <p class="single-line-text">Plural: <i>ninjas</i></p>
+                            <p><a href="#" onclick="mostrarModal(this)" class="btn-yellow2">
+                                    37 likes</a></p>
+                        </div>
+                        <div class="card-body1">
+                            <p>A <a href="#" class="azul">programmer</a> who breaks down problems with <a href="#"
+                                    class="azul">zen</a>- like focus
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
